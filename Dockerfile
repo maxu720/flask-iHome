@@ -11,6 +11,9 @@ RUN apt-get install -y gcc
 COPY . /data
 RUN pip install -r /data/requirements.txt 
 
+RUN mkdir -p /logs
+RUN touch /logs/log
+
 CMD python /data/manage.py runserver
 
 
