@@ -8,7 +8,7 @@ class Config:
     SECRET_KEY = "TQ6uZxn+SLqiLgVimX838/VplIsLbEP5jV7vvZ+Ohqw="
 
     # flask-sqlalchemy使用参数
-    SQLALCHEMY_DATABASE_URI = "mysql://root:mysql@localhost/python23"  # 数据库
+    SQLALCHEMY_DATABASE_URI = "mysql://root:root@192.168.0.106/python23"  # 数据库
     SQLALCHEMY_TRACK_MODIFICATIONS = True  # 追踪数据库的修改行为，不设置会报警
 
     # 创建redis实例用到的参数

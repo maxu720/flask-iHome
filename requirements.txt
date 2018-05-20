@@ -1,0 +1,13 @@
+flask_sqlalchemy
+flask
+flask_wtf
+flask_session
+sqlalchemy
+alembic
+flask_script
+flask_migrate
+pillow
+qiniu
+MySQL-python
+redis
+
